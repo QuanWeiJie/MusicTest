@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginRight="10dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginTop="10dp"
+    android:background="@color/colorPink">
+        <TextView
+            android:id="@+id/item_local_music_num"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="1"
+            android:layout_centerVertical="true"
+            android:textSize="24sp" />
+        <TextView
+            android:id="@+id/item_local_music_song"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:text="玫瑰花的葬礼"
+            android:textSize="15sp"
+            android:layout_toRightOf="@+id/item_local_music_num"
+            android:layout_marginTop="15dp"
+            android:singleLine="true"
+            android:layout_marginLeft="10sp"/>
+        <TextView
+            android:id="@+id/item_local_music_singer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="许嵩"
+            android:layout_below="@+id/item_local_music_song"
+            android:layout_alignLeft="@+id/item_local_music_song"
+            android:textSize="12dp"
+            android:layout_marginBottom="5dp"
+            android:textColor="#888"/>
+        <TextView
+            android:id="@+id/textView_add"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:text="添加"
+            android:background="@color/colorPink"
+            android:layout_marginRight="10dp"
+            />
+
+
+</RelativeLayout>

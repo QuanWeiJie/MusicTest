@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">MusicTest</string>
+    <string name="menu_delete">删除</string>
+    <string name="menu_addToSheet">添加到歌单</string>
+</resources>
